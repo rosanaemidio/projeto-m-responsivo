@@ -107,7 +107,22 @@ p{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-top: 40px;
-    
+    margin-top: 40px;  
 }
 
+@media (max-width: 374px) {
+p{
+    font-size: 14pt;
+    line-height: 1.5;
+}
+}
+
+@media (max-width: 600px) {
+    p{
+        font-size: 16pt;
+    }
+    img {
+        width: 30vw;
+    }
+    
+}
