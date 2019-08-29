@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
 }
 section {
-    background-color: #024ea3;
+    background-color: #003c86;
     color: #ffffff;
     line-height: 1.8;
     height: 90vh;
@@ -110,14 +110,14 @@ p{
     margin-top: 40px;  
 }
 
-@media (max-width: 374px) {
+@media (min-width: 374px) {
 p{
     font-size: 14pt;
     line-height: 1.5;
 }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     p{
         font-size: 16pt;
     }
